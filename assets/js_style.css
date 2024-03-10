@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section{
+    margin: 20px 30px;
+    padding-top: 20px;
+    border: 1px solid #b2b2b2;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #b6b6b6;
+}
+.container{
+    height: 200px;
+}
+.popUp-cont{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+h1{
+    margin: 20px 10px;
+    text-align: center;
+}
+.popUp-cont h4{
+    margin-bottom: 10px;
+}
+.popUp, .btn-hitung{
+    padding: 10px 20px;
+    background-color: #b2b2b2;
+    margin-top: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+#hitung{
+    margin-top: 10px;
+}
+.popUp:hover, .btn-hitung:hover{
+    color: black;
+    background-color: #27ad8e;
+}
+.kalkulator-cont{
+    width: 55%;
+    float: right;
+    text-align: center;
+}
+.kalkulator-cont h4{
+    margin-bottom: 20px;
+}
+.kalkulator-cont p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.row-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center
+}
+.row-wrap label{
+    margin-right: 10px;
+    font-weight: 500;
+}
+.row-wrap select{
+    padding: 10px;
+    margin: 0 20px;
+    font-weight: 500;
+}
+.row-wrap input{
+    padding: 10px 0;
+}
+.row-wrap input,select:focus{
+    outline-color: #27ad8e;
+}
+
+

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-cont{
+    margin: 20px 20px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #b6b6b6;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-grid1{
+    height: 500px;
+    width: 45%;
+    float: left;
+}
+.form-grid2{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+label{
+    font-weight: 500;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b6b6b6;
+    margin: 10px 0;
+    resize: vertical;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b6b6b6;
+    margin: 10px 0;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: #b3b3b3;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px #b3b3b3;
+}
+input[type=submit]:hover{
+    background-color: #27ad8e;
+}
+input[type=text], select, textarea:focus{
+    outline-color: #27ad8e;
+}
+input[type=email]:focus{
+    outline-color: #27ad8e;
+}
+label[for=foto_diri]{
+    background-color: #b3b3b3;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+label[for=foto_diri]:hover{
+    background-color: #27ad8e;
+}

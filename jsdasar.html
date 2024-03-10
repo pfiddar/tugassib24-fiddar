@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/js_style.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <script src="assets/funda.js"></script>
+    <title>Javascript Dasar</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <!-- logo -->
+        <div class="logo">
+            <img class="icon" src="assets/imgs/logo_graduate.png" alt="logo graduate">
+            <!-- <span class="title-web">Your Graduate!</span> -->
+        </div>
+        <!-- nav menu -->
+        <ul>
+            <li class="nav-item">
+                <a href="index.html" id="nav-link" class="nav-link">Home</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Program</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Major</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">About</a></li>
+            <li>
+                <form action="#" class="form-search">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- fungsi pop up -->
+    <h1>Javascript Fundamental</h1>
+    <div class="section">
+        
+        <div class="container">
+            <div class="popUp-cont">
+                <h4>Pop Up Box</h4>
+                <a href="#" class="popUp" id="alert" onclick="popAlert()">Alert</a>
+                <a href="#" class="popUp" id="confirm" onclick="popConfirm()">Confirm</a>
+                <a href="#" class="popUp" id="prompt" onclick="popPrompt()">Prompt</a>
+            </div>
+        
+            <!-- fungsi operator -->
+            <div class="kalkulator-cont">
+                <h4>Kalkulator Sederhana</h4>
+                <div class="row-wrap">
+                    <label for="bil1">Bilangan 1</label><br>
+                    <input type="text" name="bil1" id="bil1"><br><br>
+                    <select name="operasi" id="operasi">
+                        <option value="">Pilih Operator</option>
+                        <option value="tambah">+</option>
+                        <option value="kurang">-</option>
+                        <option value="bagi">/</option>
+                        <option value="kali">*</option>
+                    </select><br><br>
+                    <label for="bil2">Bilangan 2</label><br>
+                    <input type="text" name="bil2" id="bil2"><br>
+                </div>
+                <!-- hasil -->
+                <p>Hasil : </p>
+                <p id="hitung"></p>
+                <a href="#" class="btn-hitung" id="hitung" onclick="operator()">Hitung</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/form_style.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <!-- logo -->
+        <div class="logo">
+            <img class="icon" src="assets/imgs/logo_graduate.png" alt="logo graduate">
+            <!-- <span class="title-web">Your Graduate!</span> -->
+        </div>
+        <!-- nav menu -->
+        <ul>
+            <li class="nav-item">
+                <a href="index.html" id="nav-link" class="nav-link">Home</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Program</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Major</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- form register -->
+    <div class="form-cont">
+        <h1>Register now!</h1>
+        <form action="">
+            <div class="form-grid1">
+                <label for="nama">Nama</label><br>
+                <input type="text" name="nama" id="nama" placeholder="Nama Lengkap"> <br><br>
+        
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email Aktif"><br><br>
+        
+                <label for="no_hp">No. HP</label><br>
+                <input type="text" name="no_hp" id="no_hp" placeholder="No HP Aktif"><br><br>
+        
+                <label for="jk">Jenis Kelamin</label><br>
+                <input type="radio" name="jk" id="laki">
+                <label for="laki">Laki-laki</label><br>
+                <input type="radio" name="jk" id="perempuan">
+                <label for="perempuan">Perempuan</label><br><br>
+
+                <label for="prodi">Prodi</label><br>
+                <select name="prodi" id="prodi">
+                    <option value="">Pilih</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="tm">Teknik Mesin</option>
+                    <option value="ts">Teknik Sipil</option>
+                </select><br><br>
+            </div>
+            <div class="form-grid2">
+        
+                <label for="hobi">Hobi</label><br>
+                <input type="checkbox" name="membaca" id="membaca">
+                <label for="membaca">Membaca</label><br>
+                <input type="checkbox" name="menulis" id="menulis">
+                <label for="menulis">Menulis</label><br>
+                <input type="checkbox" name="menyanyi" id="menyanyi">
+                <label for="menyanyi">Menyanyi</label><br>
+                <input type="checkbox" name="olahraga" id="olahraga">
+                <label for="olahraga">Olahraga</label><br><br>
+        
+                <label for="alamat">Alamat</label><br>
+                <textarea name="alamat" id="alamat" cols="20" rows="5" placeholder="Alamat Lengkap"></textarea><br><br>
+        
+                <label for="foto">Foto Diri</label><br>
+                <input type="file" name="foto_diri" id="foto_diri" hidden/>
+                <label for="foto_diri">Choose File</label><br><br>
+        
+            </div>
+            <input type="submit" value="Daftar">
+    
+        </form>
+    </div>
+    
+</body>
+</html>
