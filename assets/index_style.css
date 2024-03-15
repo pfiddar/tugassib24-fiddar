@@ -79,13 +79,16 @@
     margin-bottom: 1rem;
     animation-name: side;
     animation-duration: 2s;
+    position: relative;
 }
 @keyframes side {
-    0%{bottom: 100px;}
-    50%{bottom: 50px;}
-    100%{bottom: 0px;}
+    0%{opacity: .4; bottom: 100px;}
+    100%{opacity: 1; bottom: 0px;}
 }
 .title-page p{
+    animation-name: side;
+    animation-duration: 2s;
+    position: relative;
     font-size: 1.5rem;
 }
 .button{
@@ -96,6 +99,9 @@
     display: inline-block;
     margin: 20px auto;
     box-shadow: 2px 3px 10px #b3b3b3;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
 }
 .button:hover{
     color: black;

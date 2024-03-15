@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/index_style.css">
+    <link rel="stylesheet" href="../assets/nav.css">
+    
+    <title>Welcome Home!</title>
+</head>
+<body>
+    <nav>
+        <!-- logo -->
+        <div class="logo">
+            <img class="icon" src="../assets/imgs/logo_graduate.png" alt="logo graduate">
+            <!-- <span class="title-web">Your Graduate!</span> -->
+        </div>
+        <!-- nav menu -->
+        <ul>
+            <li class="nav-item">
+                <a href="../index.html" id="nav-link" class="nav-link">Home</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Program</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">Major</a></li>
+            <li class="nav-item">
+                <a href="#" id="nav-link" class="nav-link">About</a></li>
+            <li>
+                <form action="#" class="form-search">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- landing page -->
+    <section class="landing-page">
+        <div class="title-page">
+            <h1>
+                Follow the Programs for Your Graduate!
+            </h1>
+            <p>
+                College education program that help you graduate more quickly <br>
+                Easy and very helpful program for you 
+            </p>
+
+            <a class="button" href="../form.html">Form Biodata</a>
+            <a class="button" href="../jsdasar.html">Javascript Fundamental</a>
+        </div>
+        <!-- img for landing page -->
+        <div class="landing-img">
+            <img class="land-img fade" src="../assets/imgs/graduate2.jpg" alt="gambar kelulusan">
+        </div>
+    </section>
+
+    <!-- carousel -->
+    <div class="carousel-container">
+         <!-- tampilan slider slideshow  -->
+        <div class="imgSlide fade">
+            <img src="../assets/imgs/campus.jpg" alt="gambar kampus">
+        </div>
+        <div  class="imgSlide fade">
+            <img src="../assets/imgs/graduate.jpg" alt="gambar kelulusan">
+        </div>
+        <div class="imgSlide fade">
+            <img src="../assets/imgs/graduate2.jpg" alt="gambar kelulusan">
+        </div>
+        <div class="imgSlide fade">
+            <img src="../assets/imgs/library.jpg" alt="gambar perpustakaan">
+        </div>
+        
+        <a class="next" onclick="tmbhSlide(1)">❯</a>
+        <a class="prev" onclick="tmbhSlide(-1)">❮</a>
+        
+        <!-- dots slider  -->
+        <div style="text-align: center" >
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+    <script src="../assets/carousel.js"></script>
+</body>
+</html>
