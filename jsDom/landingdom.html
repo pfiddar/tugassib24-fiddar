@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/index_style.css">
+    <link rel="stylesheet" href="landingdom.css">
     <link rel="stylesheet" href="../assets/nav.css">
+    <link rel="stylesheet" href="../assets/footer.css">
     
     <title>Welcome Home!</title>
 </head>
@@ -12,13 +13,13 @@
     <nav>
         <!-- logo -->
         <div class="logo">
-            <img class="icon" src="../assets/imgs/logo_graduate.png" alt="logo graduate">
+            <a href="landingdom.html"><img class="icon" src="../assets/imgs/logo_graduate.png" alt="logo graduate"></a>
             <!-- <span class="title-web">Your Graduate!</span> -->
         </div>
         <!-- nav menu -->
         <ul>
             <li class="nav-item">
-                <a href="../index.html" id="nav-link" class="nav-link">Home</a></li>
+                <a href="landingdom.html" id="nav-link" class="nav-link">Home</a></li>
             <li class="nav-item">
                 <a href="#" id="nav-link" class="nav-link">Program</a></li>
             <li class="nav-item">
@@ -80,6 +81,50 @@
             <span class="dot" onclick="currentSlide(4)"></span>
         </div>
     </div>
+
+    <!-- article card -->
+    <span class="sub-title-web"><h1>Find The Solution You Need</h1></span>
+    <section class="articles-card">
+        <article>
+            <a href="#">
+                <div class="card-wrap">
+                    <img src="../assets/imgs/book.jpg" alt="">
+                    <div class="article-body">
+                        <h2>Build Your Research Plan</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor sequi obcaecati aperiam a tenetur molestiae, velit saepe aliquam repellat. Quia.</p>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article>
+                <a href="#">
+                <div class="card-wrap">
+                    <img src="../assets/imgs/library2.jpg" alt="">
+                    <div class="article-body">
+                        <h2>Find Your Research Reference</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor sequi obcaecati aperiam a tenetur molestiae, velit saepe aliquam repellat. Quia.</p>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article>
+                <a href="#">
+                <div class="card-wrap">
+                    <img src="../assets/imgs/discuss.jpg" alt="">
+                    <div class="article-body">
+                        <h2>Forum Discuss For Your Research</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor sequi obcaecati aperiam a tenetur molestiae, velit saepe aliquam repellat. Quia.</p>
+                    </div>
+                </div>
+            </a>
+        </article>    
+    </section>
+    <footer>
+        <ul class="footer">
+            <li><a href="#">Hover This Footer!</a></li>
+            <li><p>👋</p></li>
+        </ul>
+    </footer>
     <script src="../assets/carousel.js"></script>
 </body>
 </html>
