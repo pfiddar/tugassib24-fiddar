@@ -54,7 +54,7 @@ a:hover{
     border: 1px solid #b3b3b3;
     float: left;
     background-color: #fff;
-    background-image: url('search-icon.png');
+    /* background-image: url('search-icon.png'); */
 }
 .form-search{
     margin-left: 20px;
@@ -67,3 +67,4 @@ a:hover{
     clear: both;
     display: table;
 }
+
