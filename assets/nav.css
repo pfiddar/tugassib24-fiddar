@@ -49,6 +49,7 @@ a:hover{
 }
 /* search bar */
 .form-search input[type=text]{
+    width: 100%;
     padding: 10px;
     font-size: 15px;
     border: 1px solid #b3b3b3;
@@ -67,4 +68,19 @@ a:hover{
     clear: both;
     display: table;
 }
-
+@media screen and (min-width:280px) and (max-width: 690px){
+    nav{
+        padding: 10px;
+    }
+    .title-web{
+        display: none;
+    }
+    ul li{
+        font-size: 12px;
+        float: right;
+    }
+    .icon{
+        height: 30%;
+        width: 30%;
+    }
+}
